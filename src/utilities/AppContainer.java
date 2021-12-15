@@ -11,7 +11,6 @@ public class AppContainer {
 	private static ArcSolver solver;
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		solver = new ArcSolver();
 		mainFrame = new MainFrame();
 		mainPanel = new MainPanel(solver);
